@@ -26,7 +26,7 @@ function App() {
 
   const toggleColors = () => {
     setIsDarkMode(!isDarkMode);
-    !isDarkMode ? setButtonText('Dark Mode') : setButtonText('Light Mode');
+    !isDarkMode ? setButtonText('Light Mode') : setButtonText('Dark Mode');
   };
 
   useEffect(() => {
